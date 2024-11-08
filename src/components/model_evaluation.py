@@ -57,7 +57,7 @@ class ModelEvaluation:
                     # https://mlflow.org/docs/latest/model-registry.html#api-workflow
                     mlflow.sklearn.log_model(model, "model", registered_model_name="ml_model")
                 else:
-                    mlflow.sklearn.log_model(model, "model")
+                    mlflow.sklearn.log_model(model, artifact_path="model")
 
 
         except Exception as e:

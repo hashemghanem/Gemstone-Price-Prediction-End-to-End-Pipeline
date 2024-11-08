@@ -9,7 +9,7 @@ from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
 from src.components.model_evaluation import ModelEvaluation
 
-
+os.environ["MLFLOW_ARTIFACT_URI"] = "/Users/hashemghanem/Documents/MLOPs/Project/Gemstone-Price-Prediction-End-to-End-Pipeline/artifacts"
 obj=DataIngestion()
 
 train_data_path,test_data_path=obj.initiate_data_ingestion()
