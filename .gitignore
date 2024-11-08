@@ -52,6 +52,7 @@ coverage.xml
 cover/
 mlruns/
 **/*.csv
+*.csv
 
 # Translations
 *.mo
