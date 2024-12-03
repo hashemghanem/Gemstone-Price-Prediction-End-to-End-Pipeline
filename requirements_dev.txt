@@ -1,13 +1,13 @@
 pandas
 scikit-learn
 numpy
-seaborn 
+seaborn
 flask
 mlflow==2.2.2
 dvc
 ipykernel
 xgboost
-
+apache-airflow
 # dev requirements -
 
 pytest==7.1.3
